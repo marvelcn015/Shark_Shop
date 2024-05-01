@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "鯊魚咖啡",
+        "price": 5.99,
+        "image": "assets/images/S__33923087.jpg",
+        "description": "新鮮原淬，喝過的都說讚"
+    },
+    {
+        "id": 2,
+        "name": "鯊魚陪你下西洋棋",
+        "price": 14.99,
+        "image": "assets/images/S__86695940_0.jpg",
+        "description": "但不要太要求了，他們畢竟不太聰明"
+    },
+    {
+        "id": 3,
+        "name": "聘請一位鯊魚工讀生",
+        "price": 29.99,
+        "image": "assets/images/S__86695954_0.jpg",
+        "description": "Hello Shark, DO MY TAXES!!!"
+    }
+]

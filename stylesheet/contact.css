@@ -1,0 +1,121 @@
+:root {
+    --primary: #A7706B;
+    --secondary: #98C1D9;
+    --accent: #D8C3A5;
+    --text: #4A4A4A;
+    --bg: #EAE7DC;
+
+}
+
+body {
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    margin: 0;
+    background-color: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--primary);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--secondary);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+.footer-links a:hover {
+    border-bottom: 2px solid white;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1 {
+    color: white;
+    margin-left: 1rem;
+}
+
+h2,
+h3 {
+    color: var(--primary);
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+form {
+    margin-top: 2rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #A25D46;
+}
+
+@media (max-width: 1080px) {
+    .modal-content {
+        width: 80%;
+    }
+}
